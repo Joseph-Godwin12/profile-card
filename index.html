@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>profile-card</title>
+</head>
+<body>
+    <div class="profile-card">
+            <img src="img/joseph.jpg" class="profile-picture" alt="profile picture"  data-testid="profilePicture">
+        
+        <div class="profile-info">
+        <h1 data-testid="fullName">Egbucha Joseph</h1>
+        <p data-testid="jobTitle">Frontend Developer</p>
+        <p data-testid="shortBio">
+            I'm Egbucha joseph, i'm passionate about building user-friendly and responsive web application
+            I enjoy turning ideas into reality using HTML, CSS and Javascript and some other
+            additional framework like React.js and tailwind css
+        </p>
+        <p data-testid="currentLocation">Imo state, Nigeria</p>
+        <p data-testid="emailAddress">josephgodwin768@gmail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/egbucha-joseph">
+                <img src="img/linkedin.png" alt="linkedin icon">
+            </a>
+            <a href="https://x.com/JosephEgbucha?s=09">
+                <img src="img/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://github.com/Joseph-Godwin12">
+                <img src="img/github.png" alt="github icon">
+            </a>
+        </div>
+        </div>
+        <p data-testid="currentTimeUTC" id="current-time"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
